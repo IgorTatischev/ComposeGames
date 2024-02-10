@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lights Out</string>
+    <string name="exit">Return</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="score">Turns: %s</string>
+    <string name="win">You win : %s coins</string>
+    <string name="balance">Balance: %s coins</string>
+</resources>

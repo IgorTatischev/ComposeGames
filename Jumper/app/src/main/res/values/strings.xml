@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jumper</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="restart">Restart</string>
+    <string name="score">"Score: %d"</string>
+    <string name="record">"Record: %d"</string>
+</resources>

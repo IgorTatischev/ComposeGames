@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memory Card Game</string>
+    <string name="score">Turns: %s</string>
+    <string name="restart">Restart</string>
+</resources>

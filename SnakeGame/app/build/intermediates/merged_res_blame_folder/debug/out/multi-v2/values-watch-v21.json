@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.hungrysnake.app-mergeDebugResources-69:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/tati/.gradle/caches/transforms-3/e7e37602b558ef413a847c7d88465345/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

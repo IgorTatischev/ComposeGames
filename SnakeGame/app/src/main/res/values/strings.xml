@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HungrySnake</string>
+    <string name="play">Play</string>
+    <string name="records">Records</string>
+    <string name="exit">Exit</string>
+    <string name="restart">Restart</string>
+    <string name="score">"Score: %d"</string>
+    <string name="loading">Loading…</string>
+    <string name="last_score">"Last score: %d"</string>
+</resources>

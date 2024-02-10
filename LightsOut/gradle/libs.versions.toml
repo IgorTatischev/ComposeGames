@@ -1,0 +1,131 @@
+[versions]
+app-id = "com.game.ligtsout"
+
+version-code = "1"
+version-name = "1.0."
+
+release_minify = "true"
+release-editable = "false"
+
+debug-minify = "false"
+debug-editable = "true"
+
+compile-sdk = "34"
+min-sdk = "24"
+target-sdk = "34"
+
+kotlin-compiler = "1.4.8"
+
+java_versions = "17"
+javaLibraryPlugin = "java-library"
+kotlinJmv = "org.jetbrains.kotlin.jvm"
+
+agp = "8.1.0"
+org-jetbrains-kotlin-android = "1.8.22"
+gradle = "8.1.0"
+kotlin = "1.8.22"
+ksp = "1.8.21-1.0.11"
+lifecycle-runtime-ktx = "2.6.2"
+appcompat = "1.6.1"
+coil = "2.4.0"
+retrofit = "2.9.0"
+okhttp = "4.10.0"
+navigation-compose = "2.7.5"
+datastore = "1.0.0"
+koin = "3.4.0"
+orbit-compose = "6.1.0"
+orbit-viewmodel = "6.1.0"
+window = "1.1.0"
+room-runtime = "2.5.1"
+accompanist = "0.33.0-alpha"
+compose-bom = "2023.08.00"
+activity-compose = "1.8.1"
+espresso-core = "3.5.1"
+core-ktx = "1.12.0"
+kotlinx-collections-immutable = "0.3.6"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+kotlin-json = "1.5.1"
+google-services = "4.3.15"
+google-material = "1.8.0"
+android-library = "8.1.0"
+gson = "2.10"
+voyager = "1.0.0"
+lottie = "5.0.3"
+browser = "1.7.0"
+
+[libraries]
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+android-build-gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+kotlin_version = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "org-jetbrains-kotlin-android" }
+google-material = { module = "com.google.android.material:material", version.ref = "google-material" }
+android-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime-ktx" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+extended-icons = { module = "androidx.compose.material:material-icons-extended" }
+
+google-services = { module = "com.google.gms.google-services:com.google.gms.google-services.gradle.plugin", version.ref = "google-services" }
+accompanist-webview = { module = "com.google.accompanist:accompanist-webview", version.ref = "accompanist" }
+accompanist-navigation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanist" }
+accompanist-permission = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
+androidx-window = { module = "androidx.window:window", version.ref = "window" }
+androidx-chrome-tabs = { module = "androidx.browser:browser", version.ref = "browser" }
+
+kotlinx-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlin-json" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+
+datastore = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+datastore-proto = { module = "androidx.datastore:datastore", version.ref = "datastore" }
+
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-runtime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-runtime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
+
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
+
+voyager-navigation = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
+voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
+
+orbit-compose = { module = "org.orbit-mvi:orbit-compose", version.ref = "orbit-compose" }
+orbit-viewmodel = { module = "org.orbit-mvi:orbit-viewmodel", version.ref = "orbit-viewmodel" }
+
+lottie = {module = "com.airbnb.android:lottie-compose", version.ref = "lottie"}
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+ksp-plugin = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+android-library = { id = "com.android.library", version.ref = "android-library" }
+gms-plugin = { id = "com.google.gms.google-services", version.ref = "google-services" }
+org-jetbrains-kotlin-serizliation = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+[bundles]
+room-impl = ["androidx-room-ktx", "androidx-room-runtime"]
+orbit = ["orbit-compose", "orbit-viewmodel"]
+koin = ["koin-android", "koin-compose"]
+datastore-full = ["datastore", "datastore-proto"]
+retrofit-with-okhttp = ["retrofit", "retrofit-converter-gson", "okhttp", "okhttp-logging-interceptor"]
+voyager = ["voyager-koin", "voyager-navigation"]
